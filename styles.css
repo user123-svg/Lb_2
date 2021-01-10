@@ -1,0 +1,138 @@
+body {  
+    background-color: cadetblue;
+     }  
+
+.font{
+    font-family: 'Times New Roman', Times, serif;
+    color: crimson;
+    font-size: 24pt;
+    } 
+
+div#First {
+    color: silver;
+    font-style: italic;
+    }
+
+h1{
+    color: darksalmon;
+}
+
+.absolute_box {
+    position: absolute;
+    top: 375px;
+    left: 10px;
+    height: 50px;
+    width: 150px;
+    background: red;
+    }
+    
+    .relative_box {
+        position: relative;
+        top: 10px;
+        left: 130px;
+        height: 50px;
+        width: 140px;
+        background: green;
+    }
+
+    .layer {
+        float: left;
+        background: #fd0;
+        border: 1px solid black;
+        padding: 10px;
+        margin-right: 20px;
+        width: 30%;
+        }
+
+    /*.block{
+        display: -webkit-inline-flex;
+        display: inline-flex; 
+        border-style: none;
+        background-color: darkblue;
+        height: 60px;
+        width: 110px;
+        position: relative;
+    }
+
+    .block1{
+        display: -webkit-inline-flex;
+        display: inline-flex;
+        border-style: none;
+        background-color: red;
+        height: 60px;
+        width: 150px;
+        text-align: center;
+    }
+
+    .block2{
+        display: -webkit-inline-flex;
+        display: inline-flex;
+        border-style: none;
+        background-color: green;
+        height: 60px;
+        width: 140px;
+        text-align: center;
+    }*/
+
+       #parent {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+    }
+    #parent > div {
+        border: 1px solid #696989;
+        min-width: 100px;
+    }
+    #elem1 {
+        order: 2;
+        background-color:green;
+        padding: 20px 30px;
+    margin: 1px; 
+    font-size: 1.5em;
+    }
+    #elem2 {
+        order: 3;
+        background-color:darkblue;
+        padding: 20px 30px;
+    margin: 1px; 
+    font-size: 1.5em;
+    }
+    #elem3 {
+        order: 0;
+        background-color:darkblue;
+        padding: 20px 30px;
+    margin: 1px; 
+    font-size: 1.5em;
+    }
+    #elem4 {
+        order: 1;
+        background-color: red;
+        padding: 20px 30px;
+    margin: 1px; 
+    font-size: 1.5em;
+    }
+
+    .form_radio_btn {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .form_radio_btn input[type=radio] {
+        display: none;
+    }
+    .form_radio_btn label {
+        display: inline-block;
+        cursor: pointer;
+        padding: 0px 15px;
+        line-height: 34px;
+        border: 1px solid #999;
+        border-radius: 6px;
+        user-select: none;
+    }
+ 
+    .form_radio_btn input[type=radio]:checked + label {
+	background: #b47a0f;
+    }
+ 
+    .form_radio_btn label:hover {
+	color: #666;
+    }

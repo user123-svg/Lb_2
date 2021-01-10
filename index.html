@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css"> h3 {color:darkblue;} </style>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+        <h2> Лабораторная работа№ 2 </h2>
+        <h2>Три способа использования каскадных таблиц стилей:</h2>
+            <ol>
+        <li><h2 style="color:darkgreen;">inline-описание</h2></li>
+        <li><h3>с помощью контейнера "style" в секции заголовка</h3></li>
+        <li><h1>подключение стилевой таблицы, расположенной во внешнем файле</h1></li>
+            </ol>
+    <p class = "font">Использование селектора Class</p>
+    <div id="First"> Использование селектора ID </div>
+
+    <div class = "absolute_box">Абсолютное позиционирование</div>
+    <div class = "relative_box">Относительное позиционирование</div><br>
+    
+    <div class="layer">Float - это свойство CSS для позиционирования элементов.<br>
+        В программах для вёрстки страниц, элементы с текстом,<br> 
+        могут учитывать изображения, а также и игнорировать их.</div><br>
+    Определяет, по какой стороне будет выравниваться элемент, <br>
+    при этом остальные элементы будут обтекать его с других сторон.<br>
+    Когда значение свойства float равно none, элемент выводится на странице<br>
+    как обычно, при этом допускается, что одна строка обтекающего <br>
+    текста может быть на той же линии, что и сам элемент.<br>
+
+    <!--<div class="block2">
+        <h2>Я первый</h2>
+    </div>
+
+    <div class="block">
+        <h2>Я второй</h2>
+    </div>
+
+    <div class="block">
+        <h2>Я третий</h2>
+    </div>
+
+    <div class="block1">
+        <h2>Я четвертый</h2>
+    </div><br>-->
+
+    <div id="parent">
+        <div id="elem1">Я первый</div>
+        <div id="elem2">Я второй</div>
+        <div id="elem3">Я третий</div>
+        <div id="elem4">Я четвертый</div>
+    </div>
+
+    <div class="form_radio_btn">
+        <input id="radio-1" type="radio" name="radio" value="1" checked>
+        <label for="radio-1">Radio button 1</label>
+    </div>
+     
+    <div class="form_radio_btn">
+        <input id="radio-2" type="radio" name="radio" value="2">
+        <label for="radio-2">Radio button 2</label>
+    </div>
+     
+    <div class="form_radio_btn">
+        <input id="radio-3" type="radio" name="radio" value="3">
+        <label for="radio-3">Radio button 3</label>
+    </div>
+   
+
+</body>
+</html>
